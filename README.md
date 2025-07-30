@@ -10,7 +10,7 @@ Each project focuses on different concepts like DOM manipulation, events, condit
 
 | #   | Project Name             | Description                         | Live Demo                | Source Code              |
 |-----|--------------------------|-------------------------------------|---------------------------|--------------------------|
-| 01  | Project One              | ...    | [Live](#)                | [Code](#)                |
+| 01  | Color Flipper              | Click a button, and it gives you a random color — great for inspiration or just having fun with frontend logic.   | [Live]()                | [Code](#)                |
 | 02  | Project Two              | ...    | [Live](#)                | [Code](#)                |
 | 03  | Project Three            | ...  | [Live](#)                | [Code](#)                |
 | 04  | Project Four             | ...                                 | [Live](#)                | [Code](#)                |
