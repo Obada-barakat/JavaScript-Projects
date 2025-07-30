@@ -10,9 +10,9 @@ Each project focuses on different concepts like DOM manipulation, events, condit
 
 | #   | Project Name             | Description                         | Live Demo                | Source Code              |
 |-----|--------------------------|-------------------------------------|---------------------------|--------------------------|
-| 01  | Project One              | Short description of project one    | [Live](#)                | [Code](#)                |
-| 02  | Project Two              | Short description of project two    | [Live](#)                | [Code](#)                |
-| 03  | Project Three            | Short description of project three  | [Live](#)                | [Code](#)                |
+| 01  | Project One              | ...    | [Live](#)                | [Code](#)                |
+| 02  | Project Two              | ...    | [Live](#)                | [Code](#)                |
+| 03  | Project Three            | ...  | [Live](#)                | [Code](#)                |
 | 04  | Project Four             | ...                                 | [Live](#)                | [Code](#)                |
 | 05  | Project Five             | ...                                 | [Live](#)                | [Code](#)                |
 | 06  | Project Six              | ...                                 | [Live](#)                | [Code](#)                |
