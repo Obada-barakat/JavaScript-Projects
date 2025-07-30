@@ -10,7 +10,7 @@ Each project focuses on different concepts like DOM manipulation, events, condit
 
 | #   | Project Name             | Description                         | Live Demo                | Source Code              |
 |-----|--------------------------|-------------------------------------|---------------------------|--------------------------|
-| 01  | Color Flipper              | Click a button, and it gives you a random color — great for inspiration or just having fun with frontend logic.   | [Live](https://obada-barakat.github.io/JavaScript-Projects/1-JavaScript-color-flipper)                | [Code](#)                |
+| 01  | Color Flipper              | Click a button, and it gives you a random color — great for inspiration or just having fun with frontend logic.   | [Live](https://obada-barakat.github.io/JavaScript-Projects/1-JavaScript-color-flipper)                | [Code](https://github.com/Obada-barakat/JavaScript-Projects/tree/main/1-JavaScript-color-flipper)                |
 | 02  | Project Two              | ...    | [Live](#)                | [Code](#)                |
 | 03  | Project Three            | ...  | [Live](#)                | [Code](#)                |
 | 04  | Project Four             | ...                                 | [Live](#)                | [Code](#)                |
