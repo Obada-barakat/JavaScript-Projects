@@ -11,7 +11,7 @@ Each project focuses on different concepts like DOM manipulation, events, condit
 | #   | Project Name             | Description                         | Live Demo                | Source Code              |
 |-----|--------------------------|-------------------------------------|---------------------------|--------------------------|
 | 01  | Color Flipper              | Click a button, and it gives you a random color — great for inspiration or just having fun with frontend logic.   | [Live](https://obada-barakat.github.io/JavaScript-Projects/1-JavaScript-color-flipper)                | [Code](https://github.com/Obada-barakat/JavaScript-Projects/tree/main/1-JavaScript-color-flipper)                |
-| 02  | Project Two              | ...    | [Live](#)                | [Code](#)                |
+| 02  | Counter App              | A simple interactive counter application built with HTML, CSS, and JavaScript. Users can increase, decrease, or reset the count by clicking buttons. The displayed number changes color based on its value—green for positive, red for negative, and default gray for zero. This project demonstrates core DOM manipulation, event handling, and clean, modular JavaScript code.    | [Live](https://obada-barakat.github.io/JavaScript-Projects/2-JavaScript-counter)                | [Code](https://github.com/Obada-barakat/JavaScript-Projects/tree/main/2-JavaScript-counter)                |
 | 03  | Project Three            | ...  | [Live](#)                | [Code](#)                |
 | 04  | Project Four             | ...                                 | [Live](#)                | [Code](#)                |
 | 05  | Project Five             | ...                                 | [Live](#)                | [Code](#)                |
