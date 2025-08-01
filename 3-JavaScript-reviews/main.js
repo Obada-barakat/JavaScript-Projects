@@ -29,52 +29,40 @@ const reviews = [
 },
 ];
 
-const img = document.getElementById('person-img');
-const author = document.getElementById('author');
-const job = document.getElementById('job');
-const info = document.getElementById('info');
+const elements = {
+    img: document.getElementById('person-img'),
+    author: document.getElementById('author'),
+    job: document.getElementById('job'),
+    info: document.getElementById('info'),
+    buttons: document.querySelectorAll('[data-action]'),
+};
 
-const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
-const randomBtn = document.querySelector('.random-btn');
+let currentIndex = 0;
 
-let item = 0;
+const updateUI = ({ img, name, job, text }) => {
+    elements.img.src = img;
+    elements.author.textContent = name;
+    elements.job.textContent = job;
+    elements.info.textContent = text;
+};
 
-function showReview() {
-    const currentItem = reviews[item];
-    getReview(currentItem);
-}
-
-function getReview(person) {
-    img.src = person.img;
-    author.textContent = person.name;
-    job.textContent = person.job;
-    info.textContent = person.text;
-}
-
-function getPrevReview() {
-    item--;
-    if (item < 0) {
-        item = reviews.length - 1;
+const changeReview = (action) => {
+    if (action == 'next') {
+        currentIndex = (currentIndex + 1) % reviews.length;
+    }   else if (action === 'prev') {
+        currentIndex = (currentIndex - 1 + reviews.length) % reviews.length;
+    }   else if (action === 'random') {
+        let randomIndex;
+        do {
+            randomIndex = Math.floor(Math.random() * reviews.length);
+        }   while (randomIndex === currentIndex);
+        currentIndex = randomIndex;
     }
-    showReview();
+    updateUI(reviews[currentIndex])
 }
 
-function getNextReview() {
-    item++;
-    if (item > reviews.length - 1) {
-        item = 0;
-    }
-    showReview();
-}
+window.addEventListener('DOMContentLoaded', () => updateUI(reviews[currentIndex]));
 
-function getRandomReview() {
-    const randomItem = Math.floor(Math.random() * reviews.length);
-    item = randomItem;
-    showReview();
-}
-
-prevBtn.addEventListener('click', getPrevReview);
-nextBtn.addEventListener('click', getNextReview);
-randomBtn.addEventListener('click', getRandomReview);
-window.addEventListener('DOMContentLoaded', showReview);
+elements.buttons.forEach(btn => {
+    btn.addEventListener('click', () => changeReview(btn.dataset.action));
+})
